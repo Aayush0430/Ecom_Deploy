@@ -39,7 +39,7 @@ export default function RootLayout({
             />
             <link rel="manifest" href="/site.webmanifest" />
           </head>
-          <body className="flex flex-col  min-h-screen ">
+          <body className="flex flex-col  min-h-screen fixed-scrollbar">
             <div className="fixed z-10 w-full">
               <Header />
             </div>
