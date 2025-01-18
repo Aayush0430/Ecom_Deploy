@@ -118,7 +118,7 @@ const Header = () => {
   // }, [router]);
   return (
     <>
-      <nav className="flex h-[10vh] items-center justify-between px-[15px] py-[20px] sticky top-0 z-20 bg-white shadow-md">
+      <nav className="flex h-[10vh] items-center justify-between px-[15px] py-[20px] top-0 z-20 bg-white shadow-md">
         <div className=" flex items-center ">
           <ToastContainer />
           <Button onClick={handleBurgerclick} sx={{ color: "white" }}>

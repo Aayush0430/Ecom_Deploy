@@ -40,9 +40,11 @@ export default function RootLayout({
             <link rel="manifest" href="/site.webmanifest" />
           </head>
           <body className="flex flex-col  min-h-screen ">
-            <Header />
+            <div className="fixed z-10 w-full">
+              <Header />
+            </div>
             <SideMenu />
-            <main className="flex-grow">{children}</main>
+            <main className="flex-grow mt-[10vh]">{children}</main>
             {/* <Footer /> */}
           </body>
         </html>
