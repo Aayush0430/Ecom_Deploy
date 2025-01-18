@@ -30,8 +30,8 @@ const Checkout = () => {
     product_service_charge: "0",
     product_delivery_charge: "0",
     product_code: "EPAYTEST",
-    success_url: `/esewapaymentsuccess`,
-    failure_url: `/paymentfailed`,
+    success_url: `https://ecom-deploy-fa91.onrender.com/esewapaymentsuccess`,
+    failure_url: `https://ecom-deploy-fa91.onrender.com/paymentfailed`,
     signed_field_names: "total_amount,transaction_uuid,product_code",
 
     signature: "",
