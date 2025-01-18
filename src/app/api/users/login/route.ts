@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
       userId: userCheck._id,
       username: userCheck.username,
       userEmail: userCheck.email,
-      isAdmin: userCheck.isadmin,
+      isadmin: userCheck.isadmin,
     };
 
     const token = jwt.sign(loggedInUser, process.env.JWT_SECRET_KEY!, {

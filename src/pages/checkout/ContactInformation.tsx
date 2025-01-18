@@ -139,6 +139,13 @@ const ContactInformation = (props: any) => {
               onChange={() => setpaymentmethod("esewa")}
             />
             <label htmlFor="esewa">E-sewa</label>
+            <div className="flex bg-gray-200 rounded-md ml-10 px-2">
+              <div>E-sewa Test Credentials:</div>
+              <div className="flex flex-col mx-4">
+                <span>ID- 9806800001</span> <span> PASS- Nepal@123</span>
+              </div>
+              <div> OTP-123456</div>
+            </div>
           </div>
           <button
             type="submit"

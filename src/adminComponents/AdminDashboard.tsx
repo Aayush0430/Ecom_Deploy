@@ -3,11 +3,11 @@ import React, { useEffect, useState } from "react";
 import CurrencyRupeeOutlinedIcon from "@mui/icons-material/CurrencyRupeeOutlined";
 import RateReviewOutlinedIcon from "@mui/icons-material/RateReviewOutlined";
 import Image from "next/image";
-// import categoryImage from "@/adminComponents/dashboardImages/Category.png";
-// import usersImage from "@/adminComponents/dashboardImages/users.png";
-// import reviewsImage from "@/adminComponents/dashboardImages/review.png";
-// import salesImage from "@/adminComponents/dashboardImages/sales.png";
-// import productsImage from "@/adminComponents/dashboardImages/products.png";
+import categoryImage from "@/adminComponents/dashboardImages/Category.png";
+import usersImage from "@/adminComponents/dashboardImages/users.png";
+import reviewsImage from "@/adminComponents/dashboardImages/review.png";
+import salesImage from "@/adminComponents/dashboardImages/sales.png";
+import productsImage from "@/adminComponents/dashboardImages/products.png";
 
 const AdminDashboard = ({ setActiveComponent }: any) => {
   const [dashboardData, setDashboardData] = useState({
@@ -51,11 +51,11 @@ const AdminDashboard = ({ setActiveComponent }: any) => {
           className="relative h-[130px] w-[300px] cursor-pointer m-6 bg-white shadow-md hover:shadow-lg transition ease-in-out duration-200 rounded-2xl border"
         >
           <div className="absolute left-8 -top-11 bg-gray-200 overflow-hidden h-28 w-28 rounded-lg flex items-center justify-center  shadow-md">
-            {/* <Image
+            <Image
               src={productsImage}
               className="h-28 object-contain  filter contrast-75"
               alt="products"
-            /> */}
+            />
           </div>
           <p className="absolute bottom-5 right-7 poppins font-medium text-[1.3rem] cursor-pointer">
             Total Products
@@ -70,13 +70,13 @@ const AdminDashboard = ({ setActiveComponent }: any) => {
           className="relative cursor-pointer h-[130px] w-[300px] m-6 bg-white shadow-md hover:shadow-lg transition ease-in-out duration-200 rounded-2xl border"
         >
           <div className="absolute left-8 -top-11 bg-gray-200 h-28 w-28 rounded-lg flex items-center justify-center  shadow-md">
-            {/* <Image
+            <Image
               // src="https://cdn-icons-png.freepik.com/256/15483/15483787.png?semt=ais_hybrid"
               // src="./Category.png"
               src={categoryImage}
               className="h-20 object-contain filter contrast-75"
               alt="category"
-            /> */}
+            />
           </div>
           <p className="absolute bottom-5 right-7 poppins font-medium text-[1.3rem]">
             Categories
@@ -91,13 +91,13 @@ const AdminDashboard = ({ setActiveComponent }: any) => {
           className="relative cursor-pointer h-[130px] w-[300px] m-6 bg-white shadow-md hover:shadow-lg transition ease-in-out duration-200 rounded-2xl border"
         >
           <div className="absolute left-8 -top-11 bg-gray-200 h-28 w-28 rounded-lg flex items-center justify-center  shadow-md">
-            {/* <Image
+            <Image
               // src="https://cdn-icons-png.freepik.com/256/15483/15483787.png?semt=ais_hybrid"
               // src="./Category.png"
               src={usersImage}
               className="h-20 object-contain  filter contrast-75"
               alt="users"
-            /> */}
+            />
           </div>
           <p className="absolute bottom-5 right-7 poppins font-medium text-[1.3rem]">
             Users
@@ -113,13 +113,13 @@ const AdminDashboard = ({ setActiveComponent }: any) => {
           className="relative cursor-pointer h-[130px] w-[300px] m-6 bg-white shadow-md hover:shadow-lg transition ease-in-out duration-200 rounded-2xl border"
         >
           <div className="absolute left-8 -top-11 bg-gray-200 h-28 w-28 rounded-lg flex items-center justify-center  shadow-md">
-            {/* <Image
+            <Image
               // src="https://cdn-icons-png.freepik.com/256/15483/15483787.png?semt=ais_hybrid"
               // src="./Category.png"
               src={reviewsImage}
               className="h-20 object-contain  filter contrast-75"
               alt="users"
-            /> */}
+            />
           </div>
           <p className="absolute bottom-5 right-7 poppins font-medium text-[1.3rem]">
             Total Reviews
@@ -132,13 +132,13 @@ const AdminDashboard = ({ setActiveComponent }: any) => {
         {/* / */}
         <div className="relative h-[130px] w-[300px] m-6 bg-white shadow-md hover:shadow-lg transition ease-in-out duration-200 rounded-2xl border">
           <div className="absolute left-8 -top-11 bg-gray-200 h-28 w-28 rounded-lg flex items-center justify-center  shadow-md">
-            {/* <Image
+            <Image
               // src="https://cdn-icons-png.freepik.com/256/15483/15483787.png?semt=ais_hybrid"
               // src="./Category.png"
               src={salesImage}
               className="h-24 object-contain  filter contrast-75"
               alt="sales"
-            /> */}
+            />
           </div>
           <p className="absolute bottom-5 right-7  poppins font-medium text-[1.3rem]">
             Total Sales

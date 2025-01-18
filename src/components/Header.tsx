@@ -41,6 +41,7 @@ const style = {
 
 const Header = () => {
   const loggedInUser = useSelector((state: any) => state.loggedInUser);
+  console.log("logged in user ", loggedInUser);
 
   // const userLoading = useSelector((state: any) => state.userLoading);
 
@@ -73,7 +74,7 @@ const Header = () => {
     setlogoutLoading(false);
     handleClose();
     handleClosemodal();
-    notify(resData.msg, resData.statusCode);
+    // notify(resData.msg, resData.statusCode);
     router.push("/login");
     // if (resData.statusCode == 200) {
     //   setTimeout(() => {

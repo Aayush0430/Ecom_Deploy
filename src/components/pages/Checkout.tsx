@@ -140,6 +140,7 @@ const Checkout = () => {
       // crate a form element and submit it to esewa endpoint
       const form = document.createElement("form");
       form.method = "POST";
+      form.target = "_blank";
       form.action = "https://rc-epay.esewa.com.np/api/epay/main/v2/form";
       // form.target = "_blank"; // Open in a new tab
 
