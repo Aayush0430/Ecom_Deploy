@@ -57,11 +57,10 @@ const SideMenu = () => {
     );
     setlogoutLoading(false);
     handleClose();
-    notify(resData.msg, resData.statusCode);
+    // notify(resData.msg, resData.statusCode);
+    router.push("/login");
     if (resData.statusCode === 200) {
-      setTimeout(() => {
-        router.push("/login");
-      }, 200);
+      setTimeout(() => {}, 200);
     }
   };
 
